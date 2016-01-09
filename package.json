@@ -1,0 +1,23 @@
+{
+  "name": "j-",
+  "version": "1.0.0",
+  "description": "Information about Jamie Hoeks",
+  "main": "index.json",
+  "scripts": {
+    "postinstall": "cat info.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-/j-.git"
+  },
+  "keywords": [
+    "jamie",
+    "hoeks"
+  ],
+  "author": "Jamie Hoeks <j@skeoh.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j-/j-/issues"
+  },
+  "homepage": "https://github.com/j-/j-#readme"
+}
