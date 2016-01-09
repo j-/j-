@@ -4,7 +4,7 @@
   "description": "Information about Jamie Hoeks",
   "main": "index.json",
   "scripts": {
-    "postinstall": "cat index.json"
+    "postinstall": "j-"
   },
   "bin": {
     "j-": "bin/j-"
