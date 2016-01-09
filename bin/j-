@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+const info = require('../');
+const command = process.argv[2];
+
+if (command) {
+	if (info[command]) {
+		console.log(info[command]);
+	}
+	else {
+		console.error('"' + command + '" not found');
+		process.exit(1);
+	}
+}
+else {
+	console.log(info);
+}

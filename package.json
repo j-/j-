@@ -6,6 +6,9 @@
   "scripts": {
     "postinstall": "cat info.json"
   },
+  "bin": {
+    "j-": "bin/j-"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/j-/j-.git"
